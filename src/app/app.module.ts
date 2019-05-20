@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PropetyBinidngComponent } from './propety-binidng/propety-binidng.component';
-import { InterpolacaoComponent } from './propety-binidng/interpolacao/interpolacao.component';
-import { ClassBindingComponent } from './propety-binidng/class-binding/class-binding.component';
+import { PropetyBinidngComponent } from './data-binidng/propety-binidng.component';
+import { InterpolacaoComponent } from './data-binidng/interpolacao/interpolacao.component';
+import { ClassBindingComponent } from './data-binidng/class-binding/class-binding.component';
 
 @NgModule({
   declarations: [

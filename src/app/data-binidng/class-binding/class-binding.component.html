@@ -1,0 +1,32 @@
+<section class="property-binding">
+<article>
+
+  <h3>Class e Style Binding</h3>
+
+  <div>
+  Selecione
+<select #selecionar (change)="0" >
+  <option value="alert-success">Sucesso</option>
+  <option value="alert-info">Informação</option>
+  <option value="alert-danger">erro</option>
+  <option value="alert-warning">alerta</option>
+</select>
+</div>
+
+
+  <div class="alert" role="alert" [class.alert-success]="selecionar.value == 'alert-success'" >
+    Sucesso
+  </div>
+  <div class="alert " role="alert" [class.alert-info]="selecionar.value == 'alert-info'" >
+    Informação
+  </div>
+  <div class="alert " role="alert" [class.alert-danger]="selecionar.value == 'alert-danger'">
+    Erro
+  </div>
+  <div class="alert " role="alert" [class.alert-warning]="selecionar.value == 'alert-warning'" >
+    Alerta
+  </div>
+
+
+</article>
+</section>
