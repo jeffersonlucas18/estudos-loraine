@@ -22,8 +22,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles":
-              "../node_module/bootstrap/dist/css/bootstrap.min.css",
+            "styles": [
+
               "src/styles.css"
             ],
             "scripts": [],
