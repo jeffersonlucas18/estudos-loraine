@@ -1,4 +1,4 @@
-import {Component, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-input-output',
@@ -9,19 +9,27 @@ export class InputOutputComponent implements OnInit {
 
     numero = 0;
 
-    @Input() valorInicial = 15;
+    valorInicial = 15;
+
+   @Output() mudouValor = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  mais() {
-    this.numero++;
+  onMudouValor(evento){
+    console.log(evento);
   }
 
-  menos(){
+  mais() {
+    this.numero++;
+    this.mudouValor.emit({novoValor: this.numero});
+   }
+
+  menos() {
     this.numero--;
+    this.mudouValor.emit({novoValor: this.numero});
   }
 
 }

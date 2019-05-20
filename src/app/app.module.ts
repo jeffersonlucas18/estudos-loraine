@@ -12,6 +12,7 @@ import { TwoWayComponent } from './data-binidng/two-way/two-way.component';
 import {FormsModule} from "@angular/forms";
 import { InputOutputComponent } from './data-binidng/input-output/input-output.component';
 import { PropertyComponent } from './data-binidng/property/property.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PropertyComponent } from './data-binidng/property/property.component';
     NavbarComponent,
     TwoWayComponent,
     InputOutputComponent,
-    PropertyComponent
+    PropertyComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,
