@@ -9,12 +9,12 @@ import {InputOutputComponent} from './data-binidng/input-output/input-output.com
 
 
 const routes: Routes = [
-  {path: '', component: AppComponent},
-  {path: 'Class-Binding', component: ClassBindingComponent},
-  {path: 'Interpolação', component: InterpolacaoComponent},
-  {path: 'Event_binding', component: EventBindingComponent},
-  {path: 'TwoWay', component: TwoWayComponent},
-  {path: 'Input_Output', component: InputOutputComponent}
+  // {path: '', component: AppComponent},
+  // {path: 'Class-Binding', component: ClassBindingComponent},
+  // {path: 'Interpolação', component: InterpolacaoComponent},
+  // {path: 'Event_binding', component: EventBindingComponent},
+  // {path: 'TwoWay', component: TwoWayComponent},
+  // {path: 'Input_Output', component: InputOutputComponent}
 ];
 
 @NgModule({

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-input-output',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class InputOutputComponent implements OnInit {
 
     numero = 0;
+
+    @Input() valorInicial = 15;
 
   constructor() { }
 

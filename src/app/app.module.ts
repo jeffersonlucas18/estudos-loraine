@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { TwoWayComponent } from './data-binidng/two-way/two-way.component';
 import {FormsModule} from "@angular/forms";
 import { InputOutputComponent } from './data-binidng/input-output/input-output.component';
+import { PropertyComponent } from './data-binidng/property/property.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { InputOutputComponent } from './data-binidng/input-output/input-output.c
     EventBindingComponent,
     NavbarComponent,
     TwoWayComponent,
-    InputOutputComponent
+    InputOutputComponent,
+    PropertyComponent
   ],
   imports: [
     BrowserModule,
