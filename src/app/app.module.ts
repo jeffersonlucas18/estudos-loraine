@@ -8,6 +8,9 @@ import { InterpolacaoComponent } from './data-binidng/interpolacao/interpolacao.
 import { ClassBindingComponent } from './data-binidng/class-binding/class-binding.component';
 import { EventBindingComponent } from './data-binidng/event-binding/event-binding.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TwoWayComponent } from './data-binidng/two-way/two-way.component';
+import {FormsModule} from "@angular/forms";
+import { InputOutputComponent } from './data-binidng/input-output/input-output.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { NavbarComponent } from './navbar/navbar.component';
     InterpolacaoComponent,
     ClassBindingComponent,
     EventBindingComponent,
-    NavbarComponent
+    NavbarComponent,
+    TwoWayComponent,
+    InputOutputComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [AppRoutingModule],
   bootstrap: [AppComponent]
