@@ -9,10 +9,12 @@ import { ClassBindingComponent } from './data-binidng/class-binding/class-bindin
 import { EventBindingComponent } from './data-binidng/event-binding/event-binding.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TwoWayComponent } from './data-binidng/two-way/two-way.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule} from '@angular/forms';
 import { InputOutputComponent } from './data-binidng/input-output/input-output.component';
 import { PropertyComponent } from './data-binidng/property/property.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { OutputComponent } from './output/output.component';
+import {EventComponent} from "./output/event/event.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +27,10 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     TwoWayComponent,
     InputOutputComponent,
     PropertyComponent,
-    NgClassComponent
+    NgClassComponent,
+    OutputComponent,
+    EventComponent
+
   ],
   imports: [
     BrowserModule,
