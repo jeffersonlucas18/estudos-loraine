@@ -19,6 +19,7 @@ import { OperadorComponent } from './operador/operador.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { FundoAareloDirective } from './shared/fundo-aarelo.directive';
 import { DiretivasCustomizadaComponent } from './diretivas-customizada/diretivas-customizada.component';
+import { HightlighrMouseDirective } from './shared/hightlighr-mouse.directive';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DiretivasCustomizadaComponent } from './diretivas-customizada/diretivas
     OperadorComponent,
     NgContentComponent,
     FundoAareloDirective,
-    DiretivasCustomizadaComponent
+    DiretivasCustomizadaComponent,
+    HightlighrMouseDirective
 
   ],
   imports: [
