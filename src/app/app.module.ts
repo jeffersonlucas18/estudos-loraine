@@ -15,6 +15,8 @@ import { PropertyComponent } from './data-binidng/property/property.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { OutputComponent } from './output/output.component';
 import {EventComponent} from "./output/event/event.component";
+import { OperadorComponent } from './operador/operador.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import {EventComponent} from "./output/event/event.component";
     PropertyComponent,
     NgClassComponent,
     OutputComponent,
-    EventComponent
+    EventComponent,
+    OperadorComponent,
+    NgContentComponent
 
   ],
   imports: [
