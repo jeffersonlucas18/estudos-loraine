@@ -6,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgClassComponent implements OnInit {
 
+  meuFavorito: boolean = false;
   constructor() { }
 
   ngOnInit() {
   }
-
+  clicado(){
+    this.meuFavorito = !this.meuFavorito;
+  }
 }

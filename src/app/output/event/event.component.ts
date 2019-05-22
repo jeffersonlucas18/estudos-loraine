@@ -8,13 +8,13 @@ import {Title} from '@angular/platform-browser';
 })
 export class EventComponent implements OnInit {
 
-  constructor(private Title: Title) { }
+  constructor(private title: Title) { }
 
     @Input() valor: number = 0;
     @Output() mudouValor = new EventEmitter();
 
   ngOnInit() {
-    this.Title.setTitle('Event Emitter');
+    this.title.setTitle('Event Emitter');
   }
   mais() {
     this.valor ++;
