@@ -17,6 +17,8 @@ import { OutputComponent } from './output/output.component';
 import {EventComponent} from "./output/event/event.component";
 import { OperadorComponent } from './operador/operador.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { FundoAareloDirective } from './shared/fundo-aarelo.directive';
+import { DiretivasCustomizadaComponent } from './diretivas-customizada/diretivas-customizada.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     OutputComponent,
     EventComponent,
     OperadorComponent,
-    NgContentComponent
+    NgContentComponent,
+    FundoAareloDirective,
+    DiretivasCustomizadaComponent
 
   ],
   imports: [
